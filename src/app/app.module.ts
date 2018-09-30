@@ -7,13 +7,19 @@ import { NavbarComponent } from './componets/navbar/navbar.component';
 import {AboutComponent} from './componets/about/about.component';
 import { FaqComponent } from './componets/faq/faq.component';
 import { UsComponent } from './componets/us/us.component';
+import { DalaComponent } from './componets/dala/dala.component';
+import { DigitalComponent } from './componets/digital/digital.component';
+import { BillComponent } from './componets/bill/bill.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     AboutComponent,
     FaqComponent,
-    UsComponent
+    UsComponent,
+    DalaComponent,
+    DigitalComponent,
+    BillComponent
     
   ],
   imports: [

@@ -1,0 +1,53 @@
+{
+  "background_color": "#2F5BE7",
+  "display": "standalone",
+  "orientation":"portrait",
+  "theme_color": "#2F5BE7",
+  "short_name": "waploaj",
+  "name": "Waploa Transit Agency.",
+  "description": "Waploaj is the world leader in communications services A global powerhouse of creative talent, we help clients understand and reach audiences, build brands, sell products and services, grow their businesses and prepare for the future.",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}

@@ -7,7 +7,7 @@
         <a class="navbar-brand" href="index.html">
             <img src="https://waploaj.infoconsultancy.com/images/brand_2.png" alt="Image">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
         <span class="menu-icon__circle">
@@ -26,16 +26,16 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#workshops">Workshops</a>
+                    <a class="nav-link" href="#workshops">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link" href="#team">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#faqs">help</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://medium.com/search?q=DSCKisii" target="_blank">Stories</a>
+                    <a class="nav-link" href="https://medium.com/search?q=DSCKisii" target="_blank">Careers</a>
                 </li>
             </ul>
             <div class="custom-menu__right">
