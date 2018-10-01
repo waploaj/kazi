@@ -10,6 +10,10 @@ import { UsComponent } from './componets/us/us.component';
 import { DalaComponent } from './componets/dala/dala.component';
 import { DigitalComponent } from './componets/digital/digital.component';
 import { BillComponent } from './componets/bill/bill.component';
+import { ContactComponent } from './componets/contact/contact.component';
+import { CareesComponent } from './componets/carees/carees.component';
+import { NewsComponent } from './componets/news/news.component';
+import { HelpComponent } from './componets/help/help.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +23,11 @@ import { BillComponent } from './componets/bill/bill.component';
     UsComponent,
     DalaComponent,
     DigitalComponent,
-    BillComponent
+    BillComponent,
+    ContactComponent,
+    CareesComponent,
+    NewsComponent,
+    HelpComponent
     
   ],
   imports: [
