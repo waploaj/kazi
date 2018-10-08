@@ -6,9 +6,10 @@ import {UsComponent} from './componets/us/us.component';
 import {DalaComponent} from './componets/dala/dala.component';
 import {BillComponent} from './componets/bill/bill.component';
 import {DigitalComponent} from './componets/digital/digital.component'
-import { ContactComponent } from "src/app/componets/contact/contact.component";
-import { NewsComponent } from "src/app/componets/news/news.component";
-import { HelpComponent } from "src/app/componets/help/help.component";
+import { ContactComponent } from "./componets/contact/contact.component";
+import { NewsComponent } from "./componets/news/news.component";
+import { HelpComponent } from "./componets/help/help.component";
+import { CareesComponent } from "./componets/carees/carees.component";
 const appRoutes: Routes = [
     {
         path: '',
@@ -46,6 +47,10 @@ const appRoutes: Routes = [
         path: 'help',
         component: HelpComponent
         
+    },
+    {
+        path: 'carees',
+        component: CareesComponent
     }
 ];
 

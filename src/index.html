@@ -33,16 +33,30 @@
 <body>
   <app-root></app-root>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="js/vendors/jquery.min.js"></script>
-<script src="js/vendors/bootstrap.bundle.min.js"></script>
-<script src="js/vendors/jquery.magnific-popup.min.js"></script>
-<script src="js/vendors/jquery.easing.min.js"></script>
-<script src="js/vendors/swiper.min.js"></script>
-<script src="js/vendors/owl.carousel.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<a href="#" id="scroll" style="display: none;"><i class="fas fa-angle-up"></i></a>
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/formfire.js"></script>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(function () {
+                        console.log("Service Worker Registered,");
+                    });
+            }
+        );
+    }
+  </script>
+  <script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/jquery.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/bootstrap.bundle.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/jquery.magnific-popup.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/jquery.easing.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/swiper.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/vendors/owl.carousel.min.js"></script>
+<script src="http://mu-agency.com/waploaj.mu-agency.com/js/custom.js"></script>
 <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="81d2bbee-098c-4f32-88af-ccee96caf299";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
 </body>
 </html>

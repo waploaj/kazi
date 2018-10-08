@@ -14,6 +14,11 @@ import { ContactComponent } from './componets/contact/contact.component';
 import { CareesComponent } from './componets/carees/carees.component';
 import { NewsComponent } from './componets/news/news.component';
 import { HelpComponent } from './componets/help/help.component';
+import {FormsModule} from '@angular/forms';
+import {AngularFireModule} from 'angularfire2';
+import {AngularFireDatabaseModule,AngularFireDatabase} from 'angularfire2/database';
+import {environment} from '../environments/environment';
+import {} from './app.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +38,9 @@ import { HelpComponent } from './componets/help/help.component';
   imports: [
     BrowserModule,
     routing,
+     FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireDatabaseModule, // for database
     MDBBootstrapModule.forRoot()
 
   ],
